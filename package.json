@@ -1,0 +1,23 @@
+{
+  "name": "gulp-extract-media-queries",
+  "version": "0.0.1",
+  "description": "gulp-extract-media-queries",
+  "dependencies": {
+    "gulp-util": "^3.0.7",
+    "through2": "^2.0.0",
+    "css-parse": "^2.0.0",
+    "css-stringify": "^2.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/gc23/gulp-extract-media-queries.git"
+  },
+  "author": "George Christogiannopoulos <g.christogiannopoulos@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lazd/gulp-extract-media-queries/issues"
+  },
+  "engines": {
+    "node": ">=0.10"
+  }
+}
