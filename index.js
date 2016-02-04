@@ -22,14 +22,16 @@ function extractMedia(css, opts) {
   }
 
   let tree = parse(css.toString('utf-8'));
-
   tree.stylesheet.rules.forEach(rule => {
-    if (opts.removeQueries && rule.type !== 'media') {
-      mediaRules.push(rule);
-    } else if (rule.type === 'media') {
-      mediaRules.push(rule);
+    if (opts.removeQueries) {
+      if(rule.type !== 'media') {
+        mediaRules.push(rule);
+      }
     }
-  });
+     else if (rule.type === 'media') {
+        mediaRules.push(rule);
+      }
+    });
 
   mediaRulesTree.stylesheet.rules = mediaRules;
 
