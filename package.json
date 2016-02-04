@@ -1,6 +1,6 @@
 {
   "name": "gulp-separate-media-queries",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Extracts media queries into a file or removes them completely",
   "dependencies": {
     "gulp-util": "^3.0.7",
