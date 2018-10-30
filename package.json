@@ -3,8 +3,8 @@
   "version": "0.0.2",
   "description": "Extracts media queries into a file or removes them completely",
   "dependencies": {
-    "gulp-util": "^3.0.7",
-    "through2": "^2.0.0",
+    "gulp-util": "^3.0.8",
+    "through2": "^2.0.3",
     "css-parse": "^2.0.0",
     "css-stringify": "^2.0.0"
   },
