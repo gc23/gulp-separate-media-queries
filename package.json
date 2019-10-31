@@ -2,9 +2,12 @@
   "name": "gulp-separate-media-queries",
   "version": "0.0.2",
   "description": "Extracts media queries into a file or removes them completely",
+  "scripts": {
+    "commit": "git-cz"
+  },
   "dependencies": {
     "gulp-util": "^3.0.8",
-    "through2": "^2.0.3",
+    "through2": "^3.0.1",
     "css-parse": "^2.0.0",
     "css-stringify": "^2.0.0"
   },
@@ -19,5 +22,14 @@
   },
   "engines": {
     "node": ">=0.10"
+  },
+  "devDependencies": {
+    "commitizen": "^4.0.3",
+    "cz-conventional-changelog": "^3.0.2"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
