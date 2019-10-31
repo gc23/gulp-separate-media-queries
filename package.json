@@ -3,7 +3,8 @@
   "version": "0.0.2",
   "description": "Extracts media queries into a file or removes them completely",
   "scripts": {
-    "commit": "git-cz"
+    "commit": "git-cz",
+    "release": "standard-version"
   },
   "dependencies": {
     "gulp-util": "^3.0.8",
@@ -25,7 +26,8 @@
   },
   "devDependencies": {
     "commitizen": "^4.0.3",
-    "cz-conventional-changelog": "^3.0.2"
+    "cz-conventional-changelog": "^3.0.2",
+    "standard-version": "^7.0.0"
   },
   "config": {
     "commitizen": {
